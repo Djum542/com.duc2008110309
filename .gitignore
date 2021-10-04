@@ -3,3 +3,6 @@
 
 # Ada Library Information
 *.ali
+git remote add origin https://github.com/Djum542/CTDL_GT.git
+ git branch -M main 
+git push -u origin main
