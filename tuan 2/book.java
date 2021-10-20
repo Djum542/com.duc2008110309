@@ -19,5 +19,7 @@ public class book {
             GB = r;
             loai = s;
             soluong = t;
+            
         }
+
 }
