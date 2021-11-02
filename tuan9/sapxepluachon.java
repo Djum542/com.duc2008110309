@@ -1,4 +1,5 @@
- public static void selectionSort(int[], arr) {
+public class selectionSort{
+public static void selectionSort(int[], arr) {
     for(int i= 0; i<arr.lenth;i++){
         imt index = i;
         for(int j = 0;j < arr.lenth;j++){
@@ -9,8 +10,8 @@
         }
     }
     int smallerNumber = index;
-    index = j;
-    j = smallerNumber;
-}  
-    
+    ar[index] = ar[i];
+    arr[i] = smallerNumber;
+    }  
+}
 
