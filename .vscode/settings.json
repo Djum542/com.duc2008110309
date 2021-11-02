@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "tuan8",
         "tuan7",
         "src",
-        "tuan8"
+        "tuan9"
     ],
     "java.project.outputPath": "bin",
     "java.dependency.packagePresentation": "flat"
