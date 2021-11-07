@@ -1,20 +1,11 @@
 import java.util.LinkedList;
+import java.util.Scanner;
 
 public class sapxepluachonapple {
     public static void main(String[] args) {
-        Apple = new LinkedList<String>();
-
+        apple = new Scanner<String>();
+        apple = Scanner.Int(System.in);
         selectionSort = new LinkedList<>();
-        if (color == color) {
-            System.out.println("màu táo cần tìm" + color);
-
-        } else
-            System.out.println(" không có táo màu này ");
-        if (id == id) {
-            System.out.println("mã sản phẩm" + id);
-
-        } else
-            System.out.println(" không có mã sản phẩm này");
 
     }
 }
