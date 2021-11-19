@@ -1,4 +1,4 @@
-package BAIKIEMTRACK;
+package com.ductm2008110309.baikiemtraCK;
 
 import java.text.NumberFormat;
 import java.util.Calendar;
@@ -16,7 +16,7 @@ public class hanghoa {
     hanghoa(){
 
     }
-     hanghoa(int loai;int id;int TenSP;float DG;double SL;date NgN){
+     hanghoa(int loai,int id,int TenSP,float DG,double SL,date NgN){
         loai = loai;
         id = id;
         TenSP = TenSP;
@@ -40,12 +40,12 @@ public class hanghoa {
     public String toStrong(){
         Locale localeid = new Locale("id", "ma");
         NumberFormat id = id.getCurrencyInstance(localeid);
-        String id = NumberFormat.format(id);
+        String ma = NumberFormat(id);
     }
     public void NgN(int year, int month, int day){
         Calendar NgN = Calendar.getInstance();
-        Calendar.set(year, month - 1, day);
-        this.NgN = Calendar.getTime();
+        Calendar(year, month - 1, day);
+        this.NgN = Calendar();
     }
     void inhanghoa(){
         System.out.println("loại"+loai);
