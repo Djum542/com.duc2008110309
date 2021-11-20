@@ -18,7 +18,7 @@ public class dshanghoaTestDriver {
             System.out.println(">>7, kết thúc chương trình");
             System.out.println(">>1, Nhập vào lựa chọn từ (1-> 7): ");
             chon = nhap.nextInt();
-            witch(chon){
+            switch(chon){
                 case 1:
                     dshanghoa.themdau();
                     dshanghoa.themcuoi();
@@ -42,10 +42,10 @@ public class dshanghoaTestDriver {
                 case 7:
                     System.out.println("Kết thúc");
                     break;
-            }
+            
             System.out.println("Quay lại MENU (1:yes/0:no):");
             chon = nhap.nextInt();
-            
+            }
         }while(chon == 1);
         nhap.close();
     }
