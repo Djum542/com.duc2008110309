@@ -2,7 +2,7 @@ package com.ductm2008110309.baikiemtraCK;
 
 import org.w3c.dom.Node;
 
-public class node {
+public class Node {
     int loai;
     int id;
     int TenSP;
