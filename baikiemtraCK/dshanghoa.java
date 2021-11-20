@@ -167,5 +167,7 @@ public class dshanghoa {
                      gia[index]  = bigerGia;
             }
         }
-        
+        public void printf(hanghoa HH){
+            System.out.println(" In danh sách hàng hóa"+inhanghoa);
+        }
 }

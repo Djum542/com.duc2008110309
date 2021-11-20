@@ -17,8 +17,8 @@ public class Node {
         loai = loai;
         id = id;
         TenSP = TenSP;
-        DG = DG;
-        SL = SL;
-        NgN = NgN;
+        DG = vnđ;
+        SL = kg;
+        NgN = dd/MM/yyyy;
     }
 }

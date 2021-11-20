@@ -14,7 +14,5 @@ public class sapxephanghoa {
     }
     }
     public static void bubbleSort(){
-        Double SL = new Double<autonumber>();
-        autonumber
     }
 }
