@@ -1,6 +1,8 @@
 package com.ductm2008110309.baikiemtraCK;
 
 import org.w3c.dom.Node;
+import java.util.Arrays;
+import java.util.List;
 
 public class dshanghoa {
     Node head = null;
@@ -170,4 +172,22 @@ public class dshanghoa {
         public void printf(hanghoa HH){
             System.out.println(" In danh sách hàng hóa"+inhanghoa);
         }
+        public void tonghanghoa(hanghoa HH){
+            List<String> list = Arrays.asList();
+
+        int count = 0;
+
+        for (String string : list) {
+
+            System.out.println(string);
+
+            count++;
+
+        }
+
+
+    }
+
+
 }
+
