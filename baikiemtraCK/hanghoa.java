@@ -11,7 +11,7 @@ public class hanghoa {
     int TenSP;
     float DG;
     double SL;
-    date NgN;
+    Date NgN;
     Scanner nhap = new scanner(System.in);
     hanghoa(){
 
