@@ -20,8 +20,8 @@ public class hanghoa {
         loai = loai;
         id = id;
         TenSP = TenSP;
-        DG = DG;
-        SL = SL;
+        DG = vnđ;
+        SL = kg/cai/chiec/thung/bo;
         NgN = Ng;
 
     }
