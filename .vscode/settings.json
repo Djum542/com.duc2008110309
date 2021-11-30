@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "tuan9",
         "tuan8",
         "tuan7",
         "src",
-        "tuan9"
+        "baikiemtraCK"
     ],
     "java.project.outputPath": "bin",
     "java.dependency.packagePresentation": "flat"
