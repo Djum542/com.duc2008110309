@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class hanghoaLinkedListTestDriver {
     public static void main(String[] args) {
-        hanghoaLinkedList<String> Hanghoa = new LinkedList<>();
+        hanghoaLinkedList<List> Hanghoa = new LinkedList<>();
+
         Hanghoa.add("Thực phẩm ", "THP358784", "thịt", "150.000", "150", "30/11/2021");
         Hanghoa.add("Thực phẩm ", "THP676575", "Bơ ", "15.000", "300", "30/11/2021");
         Hanghoa.add("Thực phẩm ", "THP629388", "sữa chua", "20.000", "1000", "30/11/2021");
@@ -49,7 +50,7 @@ public class hanghoaLinkedListTestDriver {
                     hanghoaLinkedList.themcuoi();
                     break;
                 case 2:
-                    hanghoaLinkedList.delete();
+                    hanghoaLinkedList.xoa();
                     break;
                 case 3:
                     hanghoaLinkedList.thaydoi();
@@ -62,10 +63,10 @@ public class hanghoaLinkedListTestDriver {
                     hanghoaLinkedList.bubbleSort();
                     break;
                 case 6:
-                    hanghoaLinkedList.printf();
+                    hanghoaLinkedList.frint();
                     break;
                 case 7:
-                    hanghoaLinkedList.printf();
+                    hanghoaLinkedList.tonghanghoa();
                     break;
                 case 8:
                     System.out.println("Kết thúc");

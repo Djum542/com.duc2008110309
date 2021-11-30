@@ -14,7 +14,7 @@ public class hanghoaLinkedList {
     float DG;
     double SL;
     date NgN;
-    public hanghoaLinkedList(){
+    public void hanghoaLinkedList(){
         hanghoaLinkedList<String> Hanghoa = new LinkedList<>();
         Hanghoa.add("Thực phẩm ", "THP358784", "thịt", "150.000", "150", "30/11/2021");
         Hanghoa.add("Thực phẩm ", "THP676575", "Bơ ", "15.000", "300", "30/11/2021");
@@ -197,8 +197,8 @@ public class hanghoaLinkedList {
                      gia[index]  = bigerGia;
             }
         }
-        public void printf(hanghoa HH){
-            System.out.println(" In danh sách hàng hóa"+frintf);
+        public String printf(){
+            System.out.println(" In danh sách hàng hóa" + );
         }
         public void tonghanghoa(hanghoa HH){
             List<String> list = Arrays.asList();
