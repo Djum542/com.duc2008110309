@@ -48,14 +48,16 @@ public class hanghoaLinkedList {
                 tail = newNode;
             }
         }
-    
+    // tìm hang hóa
     public void findhanghoa(hanghoa HH) {
         Node node = null;
+        //điều kiện
         if(isEmtpy()){
             System.out.print("danh sách rỗng");
         }else{
             Node curent;
             curent = head;
+            //vòng lặp
             while(curent != null){
                 if(curent.data.loai == loai){
                     node = curent;
@@ -93,10 +95,11 @@ public class hanghoaLinkedList {
             }
         }
     }
+    // thay đổi thông tin hàng hóa
     public void thaydoi(hanghoa HH){
         Node newNode = new Node();
             
-        
+        //điều kiện
         if(isEmtpy()){
             System.out.println("danh sách rỗng");
         }else{
@@ -114,6 +117,7 @@ public class hanghoaLinkedList {
             }
         }
     }
+    // sắp xếp lựa chọn
     public static void selectionShort(loai[] gia){
     
         // sắp xếp tăng dần
@@ -170,7 +174,7 @@ public class hanghoaLinkedList {
             }
         }
         public void printf(hanghoa HH){
-            System.out.println(" In danh sách hàng hóa"+inhanghoa);
+            System.out.println(" In danh sách hàng hóa"+frintf);
         }
         public void tonghanghoa(hanghoa HH){
             List<String> list = Arrays.asList();
