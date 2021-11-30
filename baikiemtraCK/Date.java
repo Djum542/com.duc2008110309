@@ -4,7 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class DemoDateJava {
+public class Date {
 
     public static void main(String[] args) throws ParseException {
         //Khai bao bien kieu ngay
