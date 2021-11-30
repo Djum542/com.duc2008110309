@@ -4,7 +4,7 @@ import org.w3c.dom.Node;
 import java.util.Arrays;
 import java.util.List;
 
-public class dshanghoa {
+public class hanghoaLinkedList {
     Node head = null;
     Node tail = null;
     String nhap = new String();
