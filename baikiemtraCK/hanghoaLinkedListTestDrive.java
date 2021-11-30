@@ -45,27 +45,27 @@ public class hanghoaLinkedListTestDriver {
             chon = nhap.nextInt();
             switch(chon){
                 case 1:
-                    dshanghoa.themdau();
-                    dshanghoa.themcuoi();
+                    hanghoaLinkedList.themdau();
+                    hanghoaLinkedList.themcuoi();
                     break;
                 case 2:
-                    dshanghoa.delete();
+                    hanghoaLinkedList.delete();
                     break;
                 case 3:
-                    dshanghoa.thaydoi();
+                    hanghoaLinkedList.thaydoi();
                     break;
                 case 4:
-                    dshanghoa.findhanghoa();
+                    hanghoaLinkedList.findhanghoa();
                     break;
                 case 5:
-                    dshanghoa.selectionShort();
-                    dshanghoa.bubbleSort();
+                    hanghoaLinkedList.selectionShort();
+                    hanghoaLinkedList.bubbleSort();
                     break;
                 case 6:
-                    dshanghoa.printf();
+                    hanghoaLinkedList.printf();
                     break;
                 case 7:
-                    dshanghoa.printf();
+                    hanghoaLinkedList.printf();
                     break;
                 case 8:
                     System.out.println("Kết thúc");
