@@ -47,6 +47,25 @@ public class hanghoa {
         Calendar(year, month - 1, day);
         this.NgN = Calendar();
     }
+    public void curency(){
+        double currency = 101.999f;
+         
+        // định dạng tiền tệ của khu vực mặc định của máy ảo JVM
+        // khu vực mặc định này là nước Mỹ
+        // nên đơn vị của tiền tệ sẽ là $
+        NumberFormat currencyFormat = NumberFormat.getCurrencyInstance();
+        String str = currencyFormat.format(currency);
+        System.out.println("Số " + currency + " sau khi định dạng = " + str);
+             
+        long vnd = 10000000L;
+             
+        // tạo 1 NumberFormat để định dạng tiền tệ theo tiêu chuẩn của Việt Nam
+        // đơn vị tiền tệ của Việt Nam là đồng
+        Locale localeVN = new Locale("vi", "VN");
+        NumberFormat currencyVN = NumberFormat.getCurrencyInstance(localeVN);
+        String str1 = currencyVN.format(vnd);
+        System.out.println("Số " + vnd + " sau khi định dạng = " + str1);
+    }
     void inhanghoa(){
         System.out.println("loại"+loai);
         System.out.println("mã"+id); 
