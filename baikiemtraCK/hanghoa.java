@@ -66,7 +66,7 @@ public class hanghoa {
         String str1 = currencyVN.format(vnd);
         System.out.println("Số " + vnd + " sau khi định dạng = " + str1);
     }
-    void frintf(){
+    void frint(){
         System.out.println("loại"+loai);
         System.out.println("mã"+id); 
         System.out.println("tên hàng "+TenSP);
