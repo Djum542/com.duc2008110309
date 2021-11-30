@@ -14,7 +14,7 @@ public class hanghoaLinkedList {
     float DG;
     double SL;
     date NgN;
-    public dshanghoa(){
+    public hanghoaLinkedList(){
 
     }
     public boolean isEmtpy(hanghoa HH){

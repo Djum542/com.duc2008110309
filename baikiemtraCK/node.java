@@ -18,7 +18,7 @@ public class Node {
         id = id;
         TenSP = TenSP;
         DG = vnđ;
-        SL = kg;
+        SL = kg/cai/chiec/thung/bo;
         NgN = dd/MM/yyyy;
     }
 }

@@ -4,7 +4,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Date {
+public class date {
 
     public static void main(String[] args) throws ParseException {
         //Khai bao bien kieu ngay
@@ -34,7 +34,7 @@ public class Date {
     public static String chuyenNgaySangChuoi(Date date){
         String chuoiNgayViet = null;
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/mm/yyyy");
-        chuoiNgayViet =  simpleDateFormat.format(date);
+        chuoiNgayViet =  simpleDateFormat.format(Date);
         return chuoiNgayViet;
 
     }

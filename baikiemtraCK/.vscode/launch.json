@@ -8,6 +8,12 @@
             "type": "java",
             "name": "Launch hanghoaLinkedListTestDriver",
             "request": "launch",
+            "mainClass": "com.ductm2008110309.baikiemtraCK.hanghoaLinkedListTestDriver"
+        },
+        {
+            "type": "java",
+            "name": "Launch hanghoaLinkedListTestDriver",
+            "request": "launch",
             "mainClass": "hanghoaLinkedListTestDriver",
             "projectName": "baikiemtraCK_44a421ed"
         },
