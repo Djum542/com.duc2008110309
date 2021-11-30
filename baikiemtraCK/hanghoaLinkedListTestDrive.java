@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class hanghoaLinkedListTestDriver {
     public static void main(String[] args) {
-        dshanghoa<String> Hanghoa = new LinkedList<>();
+        hanghoaLinkedList<String> Hanghoa = new LinkedList<>();
         Hanghoa.add("Thực phẩm ", "THP358784", "thịt", "150.000", "150", "30/11/2021");
         Hanghoa.add("Thực phẩm ", "THP676575", "Bơ ", "15.000", "300", "30/11/2021");
         Hanghoa.add("Thực phẩm ", "THP629388", "sữa chua", "20.000", "1000", "30/11/2021");
